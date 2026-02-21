@@ -2,3 +2,8 @@ body {
     height: 100vh;
     background: linear-gradient(to bottom, #5FC3B6, #5F6FDC);
 }
+
+@font-face {
+    font-family: "Poppins";
+    src: url(./assets/Poppins-Regular.ttf);
+}

@@ -8,3 +8,6 @@
 6. Hang Man Game
 7. Calculator App
 8. Quiz App
+9. Hand Cricket
+10. Toss Game
+11. Heads and Tails Game

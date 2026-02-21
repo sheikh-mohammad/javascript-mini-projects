@@ -60,6 +60,7 @@ h1 {
 }
 
 .task {
+    margin-top: 10px;
     background-color: #F3F1F4;
     padding: 10px 10px;
     position: relative;

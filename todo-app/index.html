@@ -15,18 +15,18 @@
         <h1>Todo App</h1>
         <div class="input">
             <input type="text" id="task" placeholder="Add your new todo">
-            <button><i class="fa-solid fa-plus"></i></button>
+            <button onclick="addTask()"><i class="fa-solid fa-plus"></i></button>
         </div>
-        <div class="tasks">
-            <div class="task">
+        <div class="tasks" id="taskList">
+            <!-- <div class="task">
                 <span>Task 1</span>
                 <i class="fa-solid fa-trash-can" id="delete"></i>
                 <i class="fa-solid fa-pen" id="edit"></i>
-            </div>
+            </div> -->
         </div>
         <div class="details">
             <span class="detail">You have X pending tasks</span>
-            <button>Clear All</button>
+            <button onclick="clearAll()">Clear All</button>
         </div>
     </div>
 

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Cat Facts App</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;family=Nunito+Sans:wght@300;400;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="logo"><i class="fa-solid fa-paw"></i> Cat Facts</div>
+    </nav>
+    <main>
+      <img src="assets/cat.png" alt="" />
+      <div class="main-area">
+        <div class="question">Did you know?</div>
+        <div id="fact">"Click to get a new fact"</div>
+        <div id="length">
+          <span>Length:</span>
+          <span id="lengthCount">0</span>
+        </div>
+      </div>
+      <button id="factBtn">
+        <i class="fa-solid fa-arrow-rotate-right"></i> Get New Fact
+      </button>
+      <div class="info">
+        <i class="fa-regular fa-lightbulb"></i> Tap for a new surprise!
+      </div>
+    </main>
+  </body>
+  <script src="js/app.js"></script>
+</html>
